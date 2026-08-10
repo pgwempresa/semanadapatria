@@ -1,6 +1,6 @@
 import { ActivityItem, BonusItem, PricingBundle, Testimonial, FaqItem } from '../types';
 
-import heroMockup from '../assets/images/heronova.png';
+import heroMockup from '../assets/images/heronova.webp';
 import muralMockup from '../assets/images/mural_bonus_mockup_1786385588879.jpg';
 import viseiraMockup from '../assets/images/viseira_bonus_mockup_1786385597711.jpg';
 import activitySample1 from '../assets/images/activity_sample_1_1786385627607.jpg';
@@ -13,15 +13,15 @@ import lembrancinhaMockup from '../assets/images/lembrancinha_mockup_17863888102
 import canvaMockup from '../assets/images/canva_mockup_1786388819758.jpg';
 import bnccMockup from '../assets/images/bncc_mockup_1786388828159.jpg';
 
-import historiaEGeografiaImg from '../assets/images/historiaegeografia.png';
-import linguaPortuguesaImg from '../assets/images/linguaportuguesa.png';
-import matematicaTematicaImg from '../assets/images/matematicatematica.png';
+import historiaEGeografiaImg from '../assets/images/historiaegeografia.webp';
+import linguaPortuguesaImg from '../assets/images/linguaportuguesa.webp';
+import matematicaTematicaImg from '../assets/images/matematicatematica.webp';
 import artesImg from '../assets/images/artes.png';
 
-import muralImg from '../assets/images/mural.png';
-import moldesECoroasImg from '../assets/images/moldes_e_coroas.png';
-import mimosImg from '../assets/images/mimos.png';
-import planejamentoSemanalImg from '../assets/images/planejamentosemanal.png';
+import muralImg from '../assets/images/mural.webp';
+import moldesECoroasImg from '../assets/images/moldes_e_coroas.webp';
+import mimosImg from '../assets/images/mimos.webp';
+import planejamentoSemanalImg from '../assets/images/planejamentosemanal.webp';
 
 export const ASSETS = {
   heroMockup,
