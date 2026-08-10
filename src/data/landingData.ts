@@ -43,8 +43,9 @@ export const ASSETS = {
 };
 
 // URL de Checkout Externo configurável
-export const EXTERNAL_CHECKOUT_URL_BUNDLE_1 = "https://pay.kiwify.com.br/bundle1";
-export const EXTERNAL_CHECKOUT_URL_BUNDLE_2 = "https://pay.kiwify.com.br/bundle2";
+export const EXTERNAL_CHECKOUT_URL_BUNDLE_1 = "https://pay.wiapy.com/17znj5i3uLw";
+export const EXTERNAL_CHECKOUT_URL_BUNDLE_2 = "https://pay.wiapy.com/eesSUMfwsoYc";
+export const EXTERNAL_CHECKOUT_URL_UPSELL = "https://pay.wiapy.com/y6R2Gwm42Q6g";
 
 export const PRODUCT_INFO = {
   name: "30 Atividades de 7 de Setembro (1º ao 3º Ano)",
@@ -215,7 +216,7 @@ export const PRICING_BUNDLES: PricingBundle[] = [
     badge: "OPÇÃO BÁSICA",
     isPopular: false,
     originalPrice: "49,90",
-    discountPrice: "13,90",
+    discountPrice: "13,30",
     savePercent: "72% OFF",
     features: [
       "30 Atividades Interdisciplinares em PDF (A4)",
@@ -223,7 +224,7 @@ export const PRICING_BUNDLES: PricingBundle[] = [
       "Formatos Coloridos e Para Colorir",
       "Desenvolvido para turmas do 1º ao 3º Ano"
     ],
-    ctaText: "QUERO APENAS O BÁSICO (R$ 13,90)",
+    ctaText: "QUERO APENAS O BÁSICO (R$ 13,30)",
     subCtaText: "Acesso imediato no seu e-mail em PDF",
     guaranteeText: "Garantia incondicional de 7 dias",
     linkText: EXTERNAL_CHECKOUT_URL_BUNDLE_1

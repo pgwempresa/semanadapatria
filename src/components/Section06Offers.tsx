@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CheckCircle2, XCircle, ArrowRight, ShieldCheck, X } from 'lucide-react';
-import { PRICING_BUNDLES } from '../data/landingData';
+import { EXTERNAL_CHECKOUT_URL_UPSELL, PRICING_BUNDLES } from '../data/landingData';
 
 export const Section06Offers: React.FC = () => {
   // Countdown Timer 09:20 (560 seconds)
@@ -222,7 +222,7 @@ export const Section06Offers: React.FC = () => {
             {/* Price */}
             <div className="my-3">
               <span className="text-3xl sm:text-4xl font-black text-emerald-700 font-mono">
-                R$ 18,00
+                R$ 18,90
               </span>
               <span className="text-slate-500 font-bold ml-1">?</span>
             </div>
@@ -253,7 +253,7 @@ export const Section06Offers: React.FC = () => {
 
             {/* Main Accept Button */}
             <button
-              onClick={() => handleCheckout(bundle2.linkText)}
+              onClick={() => handleCheckout(EXTERNAL_CHECKOUT_URL_UPSELL)}
               className="w-full mt-5 bg-emerald-600 hover:bg-emerald-500 text-white font-black py-4 px-6 rounded-2xl text-base sm:text-lg shadow-xl shadow-emerald-600/30 transition-all cursor-pointer transform active:scale-95 border border-emerald-400"
             >
               EU QUERO! (Adicionar Bônus)
